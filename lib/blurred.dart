@@ -4,6 +4,9 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+/// Convenience widget to create blurred images.
+/// `BlurredImage.asset` behaves like `Image.asset`, and
+/// `BlurredImage.network` behaves like `Image.network`.
 class BlurredImage extends StatelessWidget {
   BlurredImage.asset({
     Key key,
@@ -39,6 +42,8 @@ class BlurredImage extends StatelessWidget {
   }
 }
 
+/// Wrapper widget that blurs its children.
+/// The higher the `blurValue`, the stronger the blur effect.
 class Blurred extends StatelessWidget {
   const Blurred({Key key, this.child, this.blurValue}) : super(key: key);
 
