@@ -1,6 +1,6 @@
 name: blurred
 description: blurred - The easiest way to blur your flutter widgets and images.
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/tusharsadhwani/blurred
 
 environment:
