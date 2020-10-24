@@ -49,11 +49,11 @@ class _MyHomePageState extends State<MyHomePage> {
           shrinkWrap: true,
           children: [
             BlurredImage.asset(
-              imagePath: 'assets/img-small.jpg',
+              'assets/img-small.jpg',
               blurValue: sliderValue,
             ),
             BlurredImage.asset(
-              imagePath: 'assets/img.jpg',
+              'assets/img.jpg',
               blurValue: sliderValue,
             ),
             Slider(
